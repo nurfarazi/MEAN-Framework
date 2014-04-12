@@ -7,20 +7,24 @@
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-cli": "*",
+    "grunt-concurrent": "~0.4.1",
+    "grunt-contrib-concat": "~0.3.0",
     "grunt-contrib-jshint": "~0.6.3",
+    "grunt-contrib-less": "~0.8.0",
     "grunt-contrib-nodeunit": "~0.2.0",
     "grunt-contrib-uglify": "~0.2.4",
-    "grunt-contrib-concat": "~0.3.0",
     "grunt-contrib-watch": "~0.5.3",
-    "grunt-contrib-less": "~0.8.0",
     "grunt-nodemon": "~0.1.1",
-    "grunt-concurrent": "~0.4.1",
     "grunt-spritesmith": "~1.21.2"
   },
   "dependencies": {
-    "express": "*",
+    "body-parser": "~1.0.1",
+    "connect-multiparty": "~1.0.3",
+    "cookie-parser": "~1.0.1",
     "ejs": "*",
+    "express": "*",
+    "method-override": "~1.0.0",
     "mongojs": "*",
-    "dotenv": "~0.2.3"
+    "morgan": "~1.0.0"
   }
 }
